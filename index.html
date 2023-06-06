@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador De Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   
+</head>
+<body> 
+    <img class="logo" src="Img/Logo Alura.png" alt="Logo Alura">
+    
+    <section class="contenedor">
+        <div class="principal">
+            <textarea id="texto" type="text" cols="30" rows="15" placeholder="Ingrese el texto aquí"></textarea>
+            <p>Solo letras minúsculas y sin acento</p>
+            <div class="botones">
+                <button class="btn-encriptar" type="button" onclick="ValidarTexto()">Encriptar</button>
+                <button class="btn-desencriptar" type="button" onclick="Desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="box">
+            <img class="frame1" src="Img/Frame.png">
+            <textarea id="copy" type="text" cols="30" rows="15"></textarea>
+            <button class="btn-copiar" type="button" onclick="CopiarTexto()">Copiar!</button>
+        </div>
+
+    </section>
+    <footer>
+        <p class="copyright">&copy By Maria Dib Ashur</p>
+    </footer>
+</body>
+
+</html>
